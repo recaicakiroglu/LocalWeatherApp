@@ -21,7 +21,8 @@ import SideBar from "@/components/Layout/SideBar.vue";
 import WeatherMap from "@/components/Layout/WeatherMap.vue";
 import ScaleLoader from "vue-spinner/src/ScaleLoader.vue";
 import { latLng } from "leaflet";
-import { isPositionOufOfBounds, showToast } from "@/utils/boundsChecker";
+import { isPositionOufOfBounds } from "@/utils/boundsChecker";
+import { showToast } from "@/utils/toast";
 import _ from "lodash";
 
 export default {

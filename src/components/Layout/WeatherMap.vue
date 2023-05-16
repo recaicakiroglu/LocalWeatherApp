@@ -28,7 +28,8 @@ import { icon, latLngBounds } from "leaflet";
 import { fetchAddress } from "@/api/geolocationService";
 import { fetchWeather } from "@/api/weatherService";
 import { latLng } from "leaflet";
-import { isPositionOufOfBounds, showToast } from "@/utils/boundsChecker";
+import { isPositionOufOfBounds } from "@/utils/boundsChecker";
+import { showToast } from "@/utils/toast";
 import _ from "lodash";
 
 export default {
