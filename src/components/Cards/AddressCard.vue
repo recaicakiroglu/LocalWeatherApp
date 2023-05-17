@@ -26,7 +26,7 @@
         :value="location.position?.lat.toFixed(6)"
         @change="positionChanged"
         name="latitude"
-        class="block py-2 text-gray-900 border text-center border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500"
+        class="block w-32 py-2 text-gray-900 border text-center border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500"
       />
     </div>
     <div
@@ -43,7 +43,7 @@
         :value="location.position?.lng.toFixed(6)"
         @change="positionChanged"
         name="longitude"
-        class="block py-2 text-gray-900 border text-center border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500"
+        class="block w-32 py-2 text-gray-900 border text-center border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500"
       />
     </div>
   </div>
